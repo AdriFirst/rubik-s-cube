@@ -1,0 +1,21 @@
+val moncube : cube =
+  [|[|[|[|Some Red; Some White; Some Blue|]; [|Some Red; Some White; None|];
+        [|Some Red; Some White; Some Green|]|];
+      [|[|Some Red; None; Some Blue|]; [|Some Red; None; None|];
+        [|Some Red; None; Some Green|]|];
+      [|[|Some Red; Some Yellow; Some Blue|]; [|Some Red; Some Yellow; None|];
+        [|Some Red; Some Yellow; Some Green|]|]|];
+    [|[|[|None; Some White; Some Blue|]; [|None; Some White; None|];
+        [|None; Some White; Some Green|]|];
+      [|[|None; None; Some Blue|]; [|None; None; None|];
+        [|None; None; Some Green|]|];
+      [|[|None; Some Yellow; Some Blue|]; [|None; Some Yellow; None|];
+        [|None; Some Yellow; Some Green|]|]|];
+    [|[|[|Some Orange; Some White; Some Blue|];
+        [|Some Orange; Some White; None|];
+        [|Some Orange; Some White; Some Green|]|];
+      [|[|Some Orange; None; Some Blue|]; [|Some Orange; None; None|];
+        [|Some Orange; None; Some Green|]|];
+      [|[|Some Orange; Some Yellow; Some Blue|];
+        [|Some Orange; Some Yellow; None|];
+        [|Some Orange; Some Yellow; Some Green|]|]|]|]

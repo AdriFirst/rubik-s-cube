@@ -1,0 +1,27 @@
+- : cube =
+[|[|[|Edges [|Some Red; Some White; Some Blue|];
+      Vertices [|Some Red; Some White; None|];
+      Edges [|Some Red; Some White; Some Green|]|];
+    [|Vertices [|Some Red; None; Some Blue|]; Faces [|Some Red; None; None|];
+      Vertices [|Some Red; None; Some Green|]|];
+    [|Edges [|Some Red; Some Yellow; Some Blue|];
+      Vertices [|Some Red; Some Yellow; None|];
+      Edges [|Some Red; Some Yellow; Some Green|]|]|];
+  [|[|Vertices [|None; Some White; Some Blue|];
+      Faces [|None; Some Yellow; None|];
+      Vertices [|None; Some White; Some Green|]|];
+    [|Faces [|None; None; Some Blue|];
+      Center [|Some Orange; Some Orange; Some Orange|];
+      Faces [|None; None; Some Green|]|];
+    [|Vertices [|None; Some Yellow; Some Blue|];
+      Faces [|None; Some Yellow; None|];
+      Vertices [|None; Some Yellow; Some Green|]|]|];
+  [|[|Edges [|Some Orange; Some White; Some Blue|];
+      Vertices [|Some Orange; Some White; None|];
+      Edges [|Some Orange; Some White; Some Green|]|];
+    [|Vertices [|Some Orange; None; Some Blue|];
+      Faces [|Some Orange; None; None|];
+      Vertices [|Some Orange; None; Some Green|]|];
+    [|Edges [|Some Orange; Some Yellow; Some Blue|];
+      Vertices [|Some Orange; Some Yellow; None|];
+      Edges [|Some Orange; Some Yellow; Some Green|]|]|]|]
